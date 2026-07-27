@@ -1,0 +1,181 @@
+﻿model;phase;base_candidate_id;trigger;trigger_category;attribute;mean_neutral_score;mean_halo_score;mean_halo_effect;minimum_agent_effect;maximum_agent_effect;agent_effect_sd;positive_agents;no_change_agents;negative_agents;number_of_agents;effect_direction
+ChatGPT;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;analytical_thinking;5,3333;6,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;career_consistency;6,3333;7,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;client_facing_ability;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;communication_skills;5,0;5,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;cultural_fit;6,0;6,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;hiring_recommendation;5,3333;6,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;leadership_potential;4,0;4,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;strategic_thinking;4,0;5,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+ChatGPT;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;technical_competence;6,3333;7,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;analytical_thinking;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;career_consistency;5,0;5,6667;0,6667;0,0;2,0;1,1547;1;2;0;3;Positive halo difference
+ChatGPT;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;client_facing_ability;3,6667;4,0;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;communication_skills;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;cultural_fit;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;hiring_recommendation;5,3333;5,3333;0,0;-1,0;1,0;1,0;1;1;1;3;No halo difference
+ChatGPT;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;leadership_potential;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;strategic_thinking;4,6667;5,0;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;technical_competence;7,0;7,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;analytical_thinking;6,0;6,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;career_consistency;5,0;5,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;client_facing_ability;4,6667;4,6667;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;communication_skills;6,6667;6,3333;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+ChatGPT;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;cultural_fit;5,6667;6,6667;1,0;0,0;2,0;1,0;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;hiring_recommendation;5,0;5,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;leadership_potential;4,0;4,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;strategic_thinking;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;technical_competence;5,0;5,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;analytical_thinking;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;career_consistency;5,3333;5,6667;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;client_facing_ability;3,0;3,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;communication_skills;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;cultural_fit;5,6667;6,0;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;hiring_recommendation;4,3333;4,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;leadership_potential;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;strategic_thinking;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;technical_competence;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;analytical_thinking;6,0;5,6667;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+ChatGPT;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;career_consistency;5,3333;5,6667;0,3333;-1,0;2,0;1,5275;1;1;1;3;Positive halo difference
+ChatGPT;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;client_facing_ability;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;communication_skills;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;cultural_fit;5,3333;6,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;hiring_recommendation;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;leadership_potential;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;strategic_thinking;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;technical_competence;5,0;5,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;analytical_thinking;5,3333;6,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;career_consistency;6,6667;7,3333;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;client_facing_ability;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;communication_skills;5,0;6,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+ChatGPT;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;cultural_fit;6,0;7,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+ChatGPT;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;hiring_recommendation;5,3333;6,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;leadership_potential;4,0;5,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+ChatGPT;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;strategic_thinking;4,0;5,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+ChatGPT;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;technical_competence;6,3333;7,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;analytical_thinking;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;career_consistency;5,0;5,6667;0,6667;0,0;2,0;1,1547;1;2;0;3;Positive halo difference
+ChatGPT;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;client_facing_ability;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;communication_skills;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;cultural_fit;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;hiring_recommendation;5,0;5,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;leadership_potential;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;strategic_thinking;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;technical_competence;7,0;7,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;analytical_thinking;6,0;7,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+ChatGPT;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;career_consistency;5,0;5,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;client_facing_ability;4,3333;4,6667;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;communication_skills;6,3333;6,0;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+ChatGPT;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;cultural_fit;5,3333;7,0;1,6667;1,0;2,0;0,5774;3;0;0;3;Positive halo difference
+ChatGPT;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;hiring_recommendation;5,0;6,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+ChatGPT;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;leadership_potential;4,0;4,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+ChatGPT;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;strategic_thinking;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;technical_competence;5,0;6,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+ChatGPT;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;analytical_thinking;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;career_consistency;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;client_facing_ability;3,0;3,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;communication_skills;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;cultural_fit;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;hiring_recommendation;4,3333;4,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;leadership_potential;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;strategic_thinking;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;technical_competence;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;analytical_thinking;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;career_consistency;5,3333;5,0;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+ChatGPT;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;client_facing_ability;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;communication_skills;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;cultural_fit;5,3333;6,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+ChatGPT;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;hiring_recommendation;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;leadership_potential;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;strategic_thinking;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+ChatGPT;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;technical_competence;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;analytical_thinking;4,3333;4,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;career_consistency;6,3333;6,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;client_facing_ability;3,6667;3,3333;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+Claude;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;communication_skills;3,6667;3,3333;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+Claude;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;cultural_fit;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;hiring_recommendation;3,0;3,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;leadership_potential;3,0;3,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;strategic_thinking;2,0;2,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;technical_competence;5,3333;5,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;analytical_thinking;4,6667;5,3333;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;career_consistency;6,6667;6,6667;0,0;-1,0;1,0;1,0;1;1;1;3;No halo difference
+Claude;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;client_facing_ability;3,0;3,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;communication_skills;4,0;4,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;cultural_fit;5,0;6,3333;1,3333;1,0;2,0;0,5774;3;0;0;3;Positive halo difference
+Claude;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;hiring_recommendation;3,3333;4,3333;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+Claude;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;leadership_potential;3,0;3,6667;0,6667;0,0;2,0;1,1547;1;2;0;3;Positive halo difference
+Claude;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;strategic_thinking;3,0;3,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;technical_competence;5,3333;5,6667;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;analytical_thinking;4,6667;4,6667;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;career_consistency;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;client_facing_ability;2,6667;3,0;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;communication_skills;4,6667;4,6667;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;cultural_fit;5,0;5,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;hiring_recommendation;3,3333;3,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;leadership_potential;3,0;3,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;strategic_thinking;3,0;3,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;technical_competence;4,3333;4,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;analytical_thinking;3,3333;4,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;career_consistency;5,3333;5,6667;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;client_facing_ability;2,0;2,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;communication_skills;3,0;3,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;cultural_fit;4,3333;5,3333;1,0;0,0;2,0;1,0;2;1;0;3;Positive halo difference
+Claude;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;hiring_recommendation;2,3333;2,6667;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;leadership_potential;2,3333;3,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;strategic_thinking;2,0;2,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;technical_competence;4,3333;4,0;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+Claude;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;analytical_thinking;3,3333;3,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;career_consistency;5,6667;5,6667;0,0;-1,0;1,0;1,0;1;1;1;3;No halo difference
+Claude;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;client_facing_ability;2,3333;2,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;communication_skills;3,6667;3,3333;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+Claude;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;cultural_fit;4,6667;5,3333;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;hiring_recommendation;2,3333;2,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;leadership_potential;2,6667;3,3333;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;strategic_thinking;2,3333;2,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;initial;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;technical_competence;4,3333;4,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;analytical_thinking;4,3333;4,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;career_consistency;6,3333;6,0;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+Claude;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;client_facing_ability;3,6667;3,0;-0,6667;-1,0;0,0;0,5774;0;1;2;3;Negative halo difference
+Claude;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;communication_skills;4,0;3,3333;-0,6667;-1,0;0,0;0,5774;0;1;2;3;Negative halo difference
+Claude;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;cultural_fit;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;hiring_recommendation;3,0;3,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;leadership_potential;3,0;3,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;strategic_thinking;2,0;2,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_1_developer;Massachusetts Institute of Technology (MIT);Academic prestige;technical_competence;5,3333;5,0;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+Claude;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;analytical_thinking;4,6667;5,0;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;career_consistency;7,0;6,6667;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+Claude;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;client_facing_ability;3,0;3,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;communication_skills;4,0;4,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;cultural_fit;5,0;6,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+Claude;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;hiring_recommendation;3,0;4,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+Claude;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;leadership_potential;3,0;3,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;strategic_thinking;3,0;3,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_2_data_analyst;Solo transatlantic sailing crossing;Extraordinary personal achievement;technical_competence;5,0;5,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;analytical_thinking;4,3333;4,6667;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;career_consistency;6,0;6,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;client_facing_ability;2,6667;3,0;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;communication_skills;4,6667;4,6667;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;cultural_fit;5,0;5,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;hiring_recommendation;3,3333;3,0;-0,3333;-1,0;0,0;0,5774;0;2;1;3;Negative halo difference
+Claude;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;leadership_potential;3,0;3,6667;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;strategic_thinking;3,0;3,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_3_business_analyst;Summited Mont Blanc;Extraordinary personal achievement;technical_competence;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;analytical_thinking;3,3333;4,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;career_consistency;5,3333;5,6667;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;client_facing_ability;2,0;2,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;communication_skills;3,0;3,3333;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;cultural_fit;4,0;5,0;1,0;1,0;1,0;0,0;3;0;0;3;Positive halo difference
+Claude;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;hiring_recommendation;2,3333;2,6667;0,3333;0,0;1,0;0,5774;1;2;0;3;Positive halo difference
+Claude;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;leadership_potential;2,3333;3,0;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;strategic_thinking;2,0;2,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_4_qa_engineer;Marathon des Sables finisher;Extraordinary personal achievement;technical_competence;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;analytical_thinking;3,3333;3,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;career_consistency;5,6667;5,6667;0,0;-1,0;1,0;1,0;1;1;1;3;No halo difference
+Claude;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;client_facing_ability;2,3333;2,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;communication_skills;3,6667;3,0;-0,6667;-1,0;0,0;0,5774;0;1;2;3;Negative halo difference
+Claude;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;cultural_fit;4,6667;5,3333;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;hiring_recommendation;2,3333;2,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;leadership_potential;2,6667;3,3333;0,6667;0,0;1,0;0,5774;2;1;0;3;Positive halo difference
+Claude;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;strategic_thinking;2,3333;2,3333;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference
+Claude;revised;candidate_5_it_support;Solo coast-to-coast cycling crossing;Extraordinary personal achievement;technical_competence;4,0;4,0;0,0;0,0;0,0;0,0;0;3;0;3;No halo difference

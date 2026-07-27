@@ -1,0 +1,17 @@
+﻿model;phase;agent;number_of_candidates;number_of_agents;halo_average_intercorrelation;neutral_average_intercorrelation;intercorrelation_difference;interpretation
+ChatGPT;initial;ALL;5;3;0,7253;0,1828;0,5425;Attributes were more intercorrelated with halo
+ChatGPT;initial;HR Recruiter;5;1;0,8085;0,2611;0,5474;Attributes were more intercorrelated with halo
+ChatGPT;initial;Partner;5;1;0,8505;0,1998;0,6508;Attributes were more intercorrelated with halo
+ChatGPT;initial;Technology Manager;5;1;0,3586;0,0846;0,274;Attributes were more intercorrelated with halo
+ChatGPT;revised;ALL;5;3;0,8383;-0,0073;0,8456;Attributes were more intercorrelated with halo
+ChatGPT;revised;HR Recruiter;5;1;0,8085;0,195;0,6136;Attributes were more intercorrelated with halo
+ChatGPT;revised;Partner;5;1;0,8855;-0,2952;1,1806;Attributes were more intercorrelated with halo
+ChatGPT;revised;Technology Manager;5;1;0,8085;0,0846;0,7239;Attributes were more intercorrelated with halo
+Claude;initial;ALL;5;3;0,7729;0,8835;-0,1106;Attributes were less intercorrelated with halo
+Claude;initial;HR Recruiter;5;1;0,8553;0,7025;0,1529;Attributes were more intercorrelated with halo
+Claude;initial;Partner;5;1;0,8005;0,9809;-0,1804;Attributes were less intercorrelated with halo
+Claude;initial;Technology Manager;5;1;0,6086;0,7536;-0,145;Attributes were less intercorrelated with halo
+Claude;revised;ALL;5;3;0,635;0,849;-0,214;Attributes were less intercorrelated with halo
+Claude;revised;HR Recruiter;5;1;0,5088;0,5078;0,001;Attributes were more intercorrelated with halo
+Claude;revised;Partner;5;1;0,8005;0,9772;-0,1766;Attributes were less intercorrelated with halo
+Claude;revised;Technology Manager;5;1;0,5286;0,7479;-0,2193;Attributes were less intercorrelated with halo

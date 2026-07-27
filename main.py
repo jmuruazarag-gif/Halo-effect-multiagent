@@ -1,100 +1,147 @@
 import os
-import json
 import pandas as pd
 
-from agents import AGENTS
+from agents import AGENTS, DELIBERATION_AGENTS
 from cvs import CVS
-from evaluator import evaluate_candidate
-from debate import run_debate_for_candidate
+from evaluator import evaluate_candidate_attributes
+from debate import run_peer_review_for_candidate, run_committee_consensus_for_candidate
 
 
-def run_individual_evaluations():
+def build_experimental_cases():
+    cases = []
+
+    for base_candidate_id, data in CVS.items():
+        cases.append({
+            "candidate_id": f"{base_candidate_id}_neutral",
+            "base_candidate_id": base_candidate_id,
+            "candidate_type": "neutral",
+            "trigger": data["trigger"],
+            "cv_text": data["neutral"]
+        })
+
+        cases.append({
+            "candidate_id": f"{base_candidate_id}_halo",
+            "base_candidate_id": base_candidate_id,
+            "candidate_type": "halo",
+            "trigger": data["trigger"],
+            "cv_text": data["halo"]
+        })
+
+    return cases
+
+
+def add_candidate_metadata(row, case):
+    row["candidate_id"] = case["candidate_id"]
+    row["base_candidate_id"] = case["base_candidate_id"]
+    row["candidate_type"] = case["candidate_type"]
+    row["trigger"] = case["trigger"]
+    return row
+
+
+def run_attribute_evaluations(cases):
     results = []
 
-    os.makedirs("results", exist_ok=True)
-
-    for cv in CVS:
+    for case in cases:
         for agent_name, agent_prompt in AGENTS.items():
-            print(f"Evaluating {cv['candidate_id']} with {agent_name}...")
+            print(f"Attribute evaluation: {case['candidate_id']} with {agent_name}...")
 
-            evaluation = evaluate_candidate(cv, agent_prompt)
+            result = evaluate_candidate_attributes(
+                cv_text=case["cv_text"],
+                agent_name=agent_name,
+                agent_prompt=agent_prompt
+            )
 
-            if evaluation is None:
-                print(f"Evaluation failed for {cv['candidate_id']} with {agent_name}")
+            if result is None:
+                print(f"Attribute evaluation failed for {case['candidate_id']} with {agent_name}")
                 continue
 
-            evaluation["candidate_id"] = cv["candidate_id"]
-            evaluation["candidate_name"] = cv["candidate_name"]
-            evaluation["candidate_type"] = cv["candidate_type"]
-
-            results.append(evaluation)
+            results.append(add_candidate_metadata(result, case))
 
     df = pd.DataFrame(results)
-    df.to_csv("results/individual_evaluations.csv", index=False, encoding="utf-8-sig")
+    df.to_csv("results/attribute_evaluations.csv", index=False, encoding="utf-8-sig", sep=";")
 
-    print("Individual evaluations saved.")
+    print("Attribute evaluations saved.")
     return results
 
 
-def run_debates(individual_results):
-    debate_rows = []
-    consensus_rows = []
+def run_peer_reviews(cases, attribute_results):
+    all_revised = []
 
-    for cv in CVS:
-        candidate_id = cv["candidate_id"]
+    for case in cases:
+        candidate_id = case["candidate_id"]
 
         evaluations_for_candidate = [
-            evaluation for evaluation in individual_results
+            evaluation for evaluation in attribute_results
             if evaluation["candidate_id"] == candidate_id
         ]
 
         if len(evaluations_for_candidate) < 3:
-            print(f"Skipping debate for {candidate_id}: missing evaluations.")
+            print(f"Skipping peer review for {candidate_id}: missing evaluations.")
             continue
 
-        print(f"Running debate for {candidate_id}...")
+        print(f"Peer review: {candidate_id}...")
 
-        debate_result = run_debate_for_candidate(
-            cv_json=cv,
-            evaluations=evaluations_for_candidate
+        revised = run_peer_review_for_candidate(
+            cv_text=case["cv_text"],
+            evaluations=evaluations_for_candidate,
+            agents=DELIBERATION_AGENTS
         )
 
-        round_1 = debate_result["debate_round_1"]
-        round_2 = debate_result["debate_round_2"]
-        final_consensus = debate_result["final_consensus"]
+        for item in revised:
+            all_revised.append(add_candidate_metadata(item, case))
 
-        for item in round_1:
-            item["candidate_id"] = cv["candidate_id"]
-            item["candidate_name"] = cv["candidate_name"]
-            item["candidate_type"] = cv["candidate_type"]
-            item["debate_round"] = 1
-            debate_rows.append(item)
+    df = pd.DataFrame(all_revised)
+    df.to_csv("results/revised_evaluations.csv", index=False, encoding="utf-8-sig", sep=";")
 
-        for item in round_2:
-            item["candidate_id"] = cv["candidate_id"]
-            item["candidate_name"] = cv["candidate_name"]
-            item["candidate_type"] = cv["candidate_type"]
-            item["debate_round"] = 2
-            debate_rows.append(item)
+    print("Revised evaluations saved.")
+    return all_revised
 
-        if final_consensus is not None:
-            final_consensus["candidate_id"] = cv["candidate_id"]
-            final_consensus["candidate_name"] = cv["candidate_name"]
-            final_consensus["candidate_type"] = cv["candidate_type"]
-            consensus_rows.append(final_consensus)
 
-    df_debate = pd.DataFrame(debate_rows)
-    df_consensus = pd.DataFrame(consensus_rows)
+def run_committee_consensus(cases, revised_results):
+    consensus_rows = []
 
-    df_debate.to_csv("results/debate_rounds.csv", index=False, encoding="utf-8-sig")
-    df_consensus.to_csv("results/final_consensus.csv", index=False, encoding="utf-8-sig")
+    for case in cases:
+        candidate_id = case["candidate_id"]
 
-    print("Debate rounds saved in results/debate_rounds.csv")
-    print("Final consensus saved in results/final_consensus.csv")
+        revised_for_candidate = [
+            evaluation for evaluation in revised_results
+            if evaluation["candidate_id"] == candidate_id
+        ]
 
-    return debate_rows, consensus_rows
+        if len(revised_for_candidate) < 3:
+            print(f"Skipping committee consensus for {candidate_id}: missing revised evaluations.")
+            continue
+
+        print(f"Committee consensus: {candidate_id}...")
+
+        consensus = run_committee_consensus_for_candidate(
+            cv_text=case["cv_text"],
+            revised_evaluations=revised_for_candidate,
+            agents=DELIBERATION_AGENTS
+        )
+
+        for item in consensus["consensus_round_1"]:
+            item["consensus_round"] = 1
+            consensus_rows.append(add_candidate_metadata(item, case))
+
+        for item in consensus["consensus_round_2"]:
+            item["consensus_round"] = 2
+            consensus_rows.append(add_candidate_metadata(item, case))
+
+    df = pd.DataFrame(consensus_rows)
+    df.to_csv("results/committee_consensus.csv", index=False, encoding="utf-8-sig", sep=";")
+
+    print("Committee consensus saved.")
+    return consensus_rows
 
 
 if __name__ == "__main__":
-    individual_results = run_individual_evaluations()
-    run_debates(individual_results)
+    os.makedirs("results", exist_ok=True)
+
+    cases = build_experimental_cases()
+
+    attribute_results = run_attribute_evaluations(cases)
+    revised_results = run_peer_reviews(cases, attribute_results)
+    consensus_results = run_committee_consensus(cases, revised_results)
+
+    print("Full multi-agent evaluation process completed.")

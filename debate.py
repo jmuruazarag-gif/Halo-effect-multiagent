@@ -1,212 +1,215 @@
 import json
-import os
-
-from dotenv import load_dotenv
-from openai import OpenAI
-
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY"),
-    base_url="https://openrouter.ai/api/v1"
-)
+from evaluator import call_llm_json
 
 
-def agent_debate_round(cv_json, agent_name, own_evaluation, other_evaluations, previous_round=None, model="openai/gpt-4o-mini"):
-    """
-    Cada agente revisa su propia evaluación y responde a las opiniones de los demás.
-    """
+def revise_evaluation_after_peer_review(
+    cv_text,
+    agent_name,
+    agent_prompt,
+    own_evaluation,
+    peer_evaluations
+):
+    system_prompt = f"""
+{agent_prompt}
 
-    prompt = f"""
-You are {agent_name} in a Deloitte Technology Strategy hiring committee.
+You must now revise your evaluation after reading the other committee members' scores and justifications.
 
-You are participating in a multi-agent deliberation about a candidate.
+Important rules:
+- Keep your own role perspective.
+- You may revise a score if the other agents' arguments make you reinterpret the CV evidence.
+- Do not revise only to agree with the others.
+- If you change a score, explain why.
+- If you keep a score, explain briefly why.
 
-Your task:
-- Defend your original evaluation.
-- React to the evaluations made by the other agents.
-- Mention whether you would revise any view after reading the other evaluations.
-- Keep your reasoning consistent with your role.
-
-Return ONLY valid JSON with this structure:
+Return ONLY valid JSON with this exact structure:
 
 {{
   "agent": "{agent_name}",
-  "position_summary": "",
-  "response_to_others": "",
-  "revised_view": "",
-  "proposed_final_decision": "",
-  "proposed_hiring_score": 0
-}}
 
-Possible final decisions:
-- Reject
-- Hold
-- Interview
-- Strong Interview
+  "technical_competence_final": 0,
+  "technical_change_reason": "",
+
+  "analytical_thinking_final": 0,
+  "analytical_change_reason": "",
+
+  "leadership_potential_final": 0,
+  "leadership_change_reason": "",
+
+  "communication_skills_final": 0,
+  "communication_change_reason": "",
+
+  "client_facing_ability_final": 0,
+  "client_facing_change_reason": "",
+
+  "cultural_fit_final": 0,
+  "cultural_fit_change_reason": "",
+
+  "career_consistency_final": 0,
+  "career_consistency_change_reason": "",
+
+  "strategic_thinking_final": 0,
+  "strategic_thinking_change_reason": "",
+
+  "hiring_recommendation_final": 0,
+  "hiring_change_reason": "",
+
+  "changed_attributes": [],
+  "overall_revision_summary": ""
+}}
 """
 
-    user_content = f"""
+    user_prompt = f"""
 Candidate CV:
-{json.dumps(cv_json, indent=2, ensure_ascii=False)}
+
+{cv_text}
 
 Your original evaluation:
+
 {json.dumps(own_evaluation, indent=2, ensure_ascii=False)}
 
-Other agents' evaluations:
-{json.dumps(other_evaluations, indent=2, ensure_ascii=False)}
+Other committee members' evaluations:
 
-Previous debate round:
-{json.dumps(previous_round, indent=2, ensure_ascii=False) if previous_round else "None"}
+{json.dumps(peer_evaluations, indent=2, ensure_ascii=False)}
 """
 
-    response = client.chat.completions.create(
-        model=model,
-        temperature=0.3,
-        messages=[
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": user_content}
-        ]
-    )
-
-    content = response.choices[0].message.content
-
-    try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        print("ERROR in debate round:")
-        print(content)
-        return None
+    return call_llm_json(system_prompt, user_prompt, temperature=0.3)
 
 
-def generate_final_consensus(cv_json, evaluations, debate_round_1, debate_round_2, model="openai/gpt-4o-mini"):
-    """
-    Genera la decisión final tras dos rondas de deliberación.
-    """
+def committee_consensus_round(
+    cv_text,
+    agent_name,
+    agent_prompt,
+    own_revised_evaluation,
+    peer_revised_evaluations,
+    previous_consensus_round=None
+):
+    system_prompt = f"""
+{agent_prompt}
 
-    prompt = """
-You are the Deloitte Technology Strategy hiring committee.
+You are now in the final consensus stage of the hiring committee.
 
-You have three agents:
-- HR Recruiter
-- Technology Manager
-- Partner
+There is no external judge.
+The final committee decision must emerge from the three agents.
 
-They have completed two rounds of deliberation.
+Your task:
+- Review your revised evaluation.
+- Review the revised evaluations of the other agents.
+- Try to reach a shared committee decision.
+- You may support the committee decision even if you still have minor disagreements.
 
-Your task is to produce the final consensus decision of the committee.
+Return ONLY valid JSON with this exact structure:
 
-Do not simply average the scores. Consider the arguments, disagreements and revised views.
+{{
+  "agent": "{agent_name}",
+  "committee_decision": "",
+  "final_hiring_recommendation": 0,
+  "consensus_position": "",
+  "main_reasoning": "",
+  "remaining_disagreements": [],
+  "willing_to_support_committee_decision": true
+}}
 
-Return ONLY valid JSON with this structure:
-
-{
-  "final_decision": "",
-  "final_hiring_score": 0,
-  "final_strengths": [],
-  "final_weaknesses": [],
-  "key_disagreements": [],
-  "consensus_reasoning": ""
-}
-
-Possible final decisions:
+Possible committee_decision values:
 - Reject
 - Hold
 - Interview
 - Strong Interview
 """
 
-    user_content = f"""
+    user_prompt = f"""
 Candidate CV:
-{json.dumps(cv_json, indent=2, ensure_ascii=False)}
 
-Initial individual evaluations:
-{json.dumps(evaluations, indent=2, ensure_ascii=False)}
+{cv_text}
 
-Debate round 1:
-{json.dumps(debate_round_1, indent=2, ensure_ascii=False)}
+Your revised evaluation:
 
-Debate round 2:
-{json.dumps(debate_round_2, indent=2, ensure_ascii=False)}
+{json.dumps(own_revised_evaluation, indent=2, ensure_ascii=False)}
+
+Other agents' revised evaluations:
+
+{json.dumps(peer_revised_evaluations, indent=2, ensure_ascii=False)}
+
+Previous consensus round:
+
+{json.dumps(previous_consensus_round, indent=2, ensure_ascii=False) if previous_consensus_round else "None"}
 """
 
-    response = client.chat.completions.create(
-        model=model,
-        temperature=0.2,
-        messages=[
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": user_content}
-        ]
-    )
-
-    content = response.choices[0].message.content
-
-    try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        print("ERROR in final consensus:")
-        print(content)
-        return None
+    return call_llm_json(system_prompt, user_prompt, temperature=0.3)
 
 
-def run_debate_for_candidate(cv_json, evaluations):
-    """
-    Ejecuta la deliberación completa para un candidato:
-    - Ronda 1
-    - Ronda 2
-    - Consenso final
-    """
-
-    debate_round_1 = []
+def run_peer_review_for_candidate(cv_text, evaluations, agents):
+    revised_evaluations = []
 
     for own_eval in evaluations:
         agent_name = own_eval["agent"]
+        agent_prompt = agents[agent_name]
 
-        other_evals = [
+        peer_evals = [
             ev for ev in evaluations
             if ev["agent"] != agent_name
         ]
 
-        result = agent_debate_round(
-            cv_json=cv_json,
+        revised = revise_evaluation_after_peer_review(
+            cv_text=cv_text,
             agent_name=agent_name,
+            agent_prompt=agent_prompt,
             own_evaluation=own_eval,
-            other_evaluations=other_evals
+            peer_evaluations=peer_evals
         )
 
-        if result:
-            debate_round_1.append(result)
+        if revised:
+            revised_evaluations.append(revised)
 
-    debate_round_2 = []
+    return revised_evaluations
 
-    for own_eval in evaluations:
-        agent_name = own_eval["agent"]
 
-        other_evals = [
-            ev for ev in evaluations
+def run_committee_consensus_for_candidate(cv_text, revised_evaluations, agents):
+    consensus_round_1 = []
+
+    for own_revised in revised_evaluations:
+        agent_name = own_revised["agent"]
+        agent_prompt = agents[agent_name]
+
+        peer_revised = [
+            ev for ev in revised_evaluations
             if ev["agent"] != agent_name
         ]
 
-        result = agent_debate_round(
-            cv_json=cv_json,
+        result = committee_consensus_round(
+            cv_text=cv_text,
             agent_name=agent_name,
-            own_evaluation=own_eval,
-            other_evaluations=other_evals,
-            previous_round=debate_round_1
+            agent_prompt=agent_prompt,
+            own_revised_evaluation=own_revised,
+            peer_revised_evaluations=peer_revised
         )
 
         if result:
-            debate_round_2.append(result)
+            consensus_round_1.append(result)
 
-    final_consensus = generate_final_consensus(
-        cv_json=cv_json,
-        evaluations=evaluations,
-        debate_round_1=debate_round_1,
-        debate_round_2=debate_round_2
-    )
+    consensus_round_2 = []
+
+    for own_revised in revised_evaluations:
+        agent_name = own_revised["agent"]
+        agent_prompt = agents[agent_name]
+
+        peer_revised = [
+            ev for ev in revised_evaluations
+            if ev["agent"] != agent_name
+        ]
+
+        result = committee_consensus_round(
+            cv_text=cv_text,
+            agent_name=agent_name,
+            agent_prompt=agent_prompt,
+            own_revised_evaluation=own_revised,
+            peer_revised_evaluations=peer_revised,
+            previous_consensus_round=consensus_round_1
+        )
+
+        if result:
+            consensus_round_2.append(result)
 
     return {
-        "debate_round_1": debate_round_1,
-        "debate_round_2": debate_round_2,
-        "final_consensus": final_consensus
+        "consensus_round_1": consensus_round_1,
+        "consensus_round_2": consensus_round_2
     }

@@ -1,0 +1,541 @@
+﻿model;phase;base_candidate_id;agent;attribute;halo_score;neutral_score;halo_effect;trigger;trigger_category
+ChatGPT;initial;candidate_1_developer;HR Recruiter;analytical_thinking;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;HR Recruiter;career_consistency;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;HR Recruiter;client_facing_ability;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;HR Recruiter;communication_skills;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;HR Recruiter;cultural_fit;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;HR Recruiter;hiring_recommendation;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;HR Recruiter;leadership_potential;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;HR Recruiter;strategic_thinking;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;HR Recruiter;technical_competence;7,0;7,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Partner;analytical_thinking;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Partner;career_consistency;8,0;7,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Partner;client_facing_ability;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Partner;communication_skills;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Partner;cultural_fit;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Partner;hiring_recommendation;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Partner;leadership_potential;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Partner;strategic_thinking;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Partner;technical_competence;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Technology Manager;analytical_thinking;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Technology Manager;career_consistency;7,0;7,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Technology Manager;client_facing_ability;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Technology Manager;communication_skills;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Technology Manager;cultural_fit;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Technology Manager;hiring_recommendation;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Technology Manager;leadership_potential;4,0;4,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Technology Manager;strategic_thinking;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_1_developer;Technology Manager;technical_competence;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;initial;candidate_2_data_analyst;HR Recruiter;analytical_thinking;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;HR Recruiter;career_consistency;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;HR Recruiter;client_facing_ability;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;HR Recruiter;communication_skills;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;HR Recruiter;cultural_fit;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;HR Recruiter;hiring_recommendation;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;HR Recruiter;leadership_potential;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;HR Recruiter;strategic_thinking;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;HR Recruiter;technical_competence;7,0;7,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Partner;analytical_thinking;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Partner;career_consistency;7,0;5,0;2,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Partner;client_facing_ability;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Partner;communication_skills;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Partner;cultural_fit;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Partner;hiring_recommendation;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Partner;leadership_potential;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Partner;strategic_thinking;5,0;4,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Partner;technical_competence;7,0;7,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Technology Manager;analytical_thinking;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Technology Manager;career_consistency;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Technology Manager;client_facing_ability;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Technology Manager;communication_skills;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Technology Manager;cultural_fit;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Technology Manager;hiring_recommendation;5,0;6,0;-1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Technology Manager;leadership_potential;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Technology Manager;strategic_thinking;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_2_data_analyst;Technology Manager;technical_competence;7,0;7,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;HR Recruiter;analytical_thinking;7,0;6,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;HR Recruiter;career_consistency;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;HR Recruiter;client_facing_ability;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;HR Recruiter;communication_skills;6,0;7,0;-1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;HR Recruiter;cultural_fit;7,0;6,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;HR Recruiter;hiring_recommendation;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;HR Recruiter;leadership_potential;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;HR Recruiter;strategic_thinking;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;HR Recruiter;technical_competence;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Partner;analytical_thinking;7,0;6,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Partner;career_consistency;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Partner;client_facing_ability;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Partner;communication_skills;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Partner;cultural_fit;7,0;5,0;2,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Partner;hiring_recommendation;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Partner;leadership_potential;5,0;4,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Partner;strategic_thinking;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Partner;technical_competence;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Technology Manager;analytical_thinking;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Technology Manager;career_consistency;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Technology Manager;client_facing_ability;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Technology Manager;communication_skills;7,0;7,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Technology Manager;cultural_fit;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Technology Manager;hiring_recommendation;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Technology Manager;leadership_potential;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Technology Manager;strategic_thinking;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_3_business_analyst;Technology Manager;technical_competence;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;HR Recruiter;analytical_thinking;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;HR Recruiter;career_consistency;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;HR Recruiter;client_facing_ability;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;HR Recruiter;communication_skills;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;HR Recruiter;cultural_fit;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;HR Recruiter;hiring_recommendation;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;HR Recruiter;leadership_potential;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;HR Recruiter;strategic_thinking;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;HR Recruiter;technical_competence;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Partner;analytical_thinking;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Partner;career_consistency;7,0;6,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Partner;client_facing_ability;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Partner;communication_skills;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Partner;cultural_fit;6,0;5,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Partner;hiring_recommendation;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Partner;leadership_potential;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Partner;strategic_thinking;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Partner;technical_competence;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Technology Manager;analytical_thinking;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Technology Manager;career_consistency;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Technology Manager;client_facing_ability;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Technology Manager;communication_skills;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Technology Manager;cultural_fit;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Technology Manager;hiring_recommendation;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Technology Manager;leadership_potential;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Technology Manager;strategic_thinking;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_4_qa_engineer;Technology Manager;technical_competence;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;HR Recruiter;analytical_thinking;6,0;6,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;HR Recruiter;career_consistency;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;HR Recruiter;client_facing_ability;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;HR Recruiter;communication_skills;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;HR Recruiter;cultural_fit;6,0;5,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;HR Recruiter;hiring_recommendation;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;HR Recruiter;leadership_potential;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;HR Recruiter;strategic_thinking;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;HR Recruiter;technical_competence;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Partner;analytical_thinking;5,0;6,0;-1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Partner;career_consistency;7,0;5,0;2,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Partner;client_facing_ability;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Partner;communication_skills;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Partner;cultural_fit;6,0;6,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Partner;hiring_recommendation;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Partner;leadership_potential;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Partner;strategic_thinking;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Partner;technical_competence;6,0;5,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Technology Manager;analytical_thinking;6,0;6,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Technology Manager;career_consistency;5,0;6,0;-1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Technology Manager;client_facing_ability;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Technology Manager;communication_skills;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Technology Manager;cultural_fit;6,0;5,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Technology Manager;hiring_recommendation;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Technology Manager;leadership_potential;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Technology Manager;strategic_thinking;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;initial;candidate_5_it_support;Technology Manager;technical_competence;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_1_developer;HR Recruiter;analytical_thinking;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;HR Recruiter;career_consistency;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;HR Recruiter;client_facing_ability;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;HR Recruiter;communication_skills;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;HR Recruiter;cultural_fit;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;HR Recruiter;hiring_recommendation;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;HR Recruiter;leadership_potential;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;HR Recruiter;strategic_thinking;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;HR Recruiter;technical_competence;7,0;7,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Partner;analytical_thinking;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Partner;career_consistency;8,0;7,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Partner;client_facing_ability;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Partner;communication_skills;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Partner;cultural_fit;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Partner;hiring_recommendation;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Partner;leadership_potential;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Partner;strategic_thinking;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Partner;technical_competence;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Technology Manager;analytical_thinking;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Technology Manager;career_consistency;7,0;7,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Technology Manager;client_facing_ability;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Technology Manager;communication_skills;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Technology Manager;cultural_fit;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Technology Manager;hiring_recommendation;6,0;5,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Technology Manager;leadership_potential;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Technology Manager;strategic_thinking;5,0;4,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_1_developer;Technology Manager;technical_competence;7,0;6,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+ChatGPT;revised;candidate_2_data_analyst;HR Recruiter;analytical_thinking;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;HR Recruiter;career_consistency;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;HR Recruiter;client_facing_ability;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;HR Recruiter;communication_skills;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;HR Recruiter;cultural_fit;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;HR Recruiter;hiring_recommendation;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;HR Recruiter;leadership_potential;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;HR Recruiter;strategic_thinking;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;HR Recruiter;technical_competence;7,0;7,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Partner;analytical_thinking;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Partner;career_consistency;7,0;5,0;2,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Partner;client_facing_ability;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Partner;communication_skills;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Partner;cultural_fit;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Partner;hiring_recommendation;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Partner;leadership_potential;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Partner;strategic_thinking;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Partner;technical_competence;7,0;7,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Technology Manager;analytical_thinking;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Technology Manager;career_consistency;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Technology Manager;client_facing_ability;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Technology Manager;communication_skills;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Technology Manager;cultural_fit;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Technology Manager;hiring_recommendation;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Technology Manager;leadership_potential;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Technology Manager;strategic_thinking;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_2_data_analyst;Technology Manager;technical_competence;7,0;7,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;HR Recruiter;analytical_thinking;7,0;6,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;HR Recruiter;career_consistency;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;HR Recruiter;client_facing_ability;5,0;4,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;HR Recruiter;communication_skills;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;HR Recruiter;cultural_fit;7,0;5,0;2,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;HR Recruiter;hiring_recommendation;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;HR Recruiter;leadership_potential;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;HR Recruiter;strategic_thinking;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;HR Recruiter;technical_competence;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Partner;analytical_thinking;7,0;6,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Partner;career_consistency;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Partner;client_facing_ability;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Partner;communication_skills;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Partner;cultural_fit;7,0;5,0;2,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Partner;hiring_recommendation;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Partner;leadership_potential;5,0;4,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Partner;strategic_thinking;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Partner;technical_competence;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Technology Manager;analytical_thinking;7,0;6,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Technology Manager;career_consistency;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Technology Manager;client_facing_ability;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Technology Manager;communication_skills;6,0;7,0;-1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Technology Manager;cultural_fit;7,0;6,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Technology Manager;hiring_recommendation;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Technology Manager;leadership_potential;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Technology Manager;strategic_thinking;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_3_business_analyst;Technology Manager;technical_competence;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;HR Recruiter;analytical_thinking;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;HR Recruiter;career_consistency;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;HR Recruiter;client_facing_ability;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;HR Recruiter;communication_skills;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;HR Recruiter;cultural_fit;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;HR Recruiter;hiring_recommendation;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;HR Recruiter;leadership_potential;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;HR Recruiter;strategic_thinking;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;HR Recruiter;technical_competence;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Partner;analytical_thinking;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Partner;career_consistency;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Partner;client_facing_ability;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Partner;communication_skills;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Partner;cultural_fit;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Partner;hiring_recommendation;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Partner;leadership_potential;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Partner;strategic_thinking;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Partner;technical_competence;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Technology Manager;analytical_thinking;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Technology Manager;career_consistency;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Technology Manager;client_facing_ability;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Technology Manager;communication_skills;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Technology Manager;cultural_fit;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Technology Manager;hiring_recommendation;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Technology Manager;leadership_potential;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Technology Manager;strategic_thinking;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_4_qa_engineer;Technology Manager;technical_competence;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;HR Recruiter;analytical_thinking;6,0;6,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;HR Recruiter;career_consistency;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;HR Recruiter;client_facing_ability;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;HR Recruiter;communication_skills;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;HR Recruiter;cultural_fit;6,0;5,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;HR Recruiter;hiring_recommendation;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;HR Recruiter;leadership_potential;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;HR Recruiter;strategic_thinking;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;HR Recruiter;technical_competence;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Partner;analytical_thinking;6,0;6,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Partner;career_consistency;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Partner;client_facing_ability;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Partner;communication_skills;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Partner;cultural_fit;6,0;6,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Partner;hiring_recommendation;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Partner;leadership_potential;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Partner;strategic_thinking;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Partner;technical_competence;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Technology Manager;analytical_thinking;6,0;6,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Technology Manager;career_consistency;5,0;6,0;-1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Technology Manager;client_facing_ability;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Technology Manager;communication_skills;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Technology Manager;cultural_fit;6,0;5,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Technology Manager;hiring_recommendation;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Technology Manager;leadership_potential;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Technology Manager;strategic_thinking;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+ChatGPT;revised;candidate_5_it_support;Technology Manager;technical_competence;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_1_developer;HR Recruiter;analytical_thinking;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;HR Recruiter;career_consistency;7,0;7,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;HR Recruiter;client_facing_ability;4,0;4,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;HR Recruiter;communication_skills;4,0;4,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;HR Recruiter;cultural_fit;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;HR Recruiter;hiring_recommendation;4,0;3,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;HR Recruiter;leadership_potential;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;HR Recruiter;strategic_thinking;3,0;2,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;HR Recruiter;technical_competence;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Partner;analytical_thinking;4,0;4,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Partner;career_consistency;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Partner;client_facing_ability;3,0;4,0;-1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Partner;communication_skills;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Partner;cultural_fit;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Partner;hiring_recommendation;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Partner;leadership_potential;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Partner;strategic_thinking;2,0;2,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Partner;technical_competence;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Technology Manager;analytical_thinking;4,0;4,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Technology Manager;career_consistency;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Technology Manager;client_facing_ability;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Technology Manager;communication_skills;3,0;4,0;-1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Technology Manager;cultural_fit;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Technology Manager;hiring_recommendation;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Technology Manager;leadership_potential;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Technology Manager;strategic_thinking;2,0;2,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_1_developer;Technology Manager;technical_competence;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;initial;candidate_2_data_analyst;HR Recruiter;analytical_thinking;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;HR Recruiter;career_consistency;7,0;7,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;HR Recruiter;client_facing_ability;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;HR Recruiter;communication_skills;5,0;4,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;HR Recruiter;cultural_fit;7,0;5,0;2,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;HR Recruiter;hiring_recommendation;5,0;4,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;HR Recruiter;leadership_potential;5,0;3,0;2,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;HR Recruiter;strategic_thinking;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;HR Recruiter;technical_competence;6,0;6,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Partner;analytical_thinking;5,0;4,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Partner;career_consistency;7,0;6,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Partner;client_facing_ability;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Partner;communication_skills;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Partner;cultural_fit;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Partner;hiring_recommendation;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Partner;leadership_potential;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Partner;strategic_thinking;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Partner;technical_competence;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Technology Manager;analytical_thinking;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Technology Manager;career_consistency;6,0;7,0;-1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Technology Manager;client_facing_ability;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Technology Manager;communication_skills;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Technology Manager;cultural_fit;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Technology Manager;hiring_recommendation;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Technology Manager;leadership_potential;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Technology Manager;strategic_thinking;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_2_data_analyst;Technology Manager;technical_competence;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;HR Recruiter;analytical_thinking;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;HR Recruiter;career_consistency;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;HR Recruiter;client_facing_ability;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;HR Recruiter;communication_skills;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;HR Recruiter;cultural_fit;6,0;5,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;HR Recruiter;hiring_recommendation;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;HR Recruiter;leadership_potential;4,0;3,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;HR Recruiter;strategic_thinking;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;HR Recruiter;technical_competence;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Partner;analytical_thinking;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Partner;career_consistency;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Partner;client_facing_ability;3,0;2,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Partner;communication_skills;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Partner;cultural_fit;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Partner;hiring_recommendation;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Partner;leadership_potential;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Partner;strategic_thinking;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Partner;technical_competence;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Technology Manager;analytical_thinking;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Technology Manager;career_consistency;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Technology Manager;client_facing_ability;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Technology Manager;communication_skills;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Technology Manager;cultural_fit;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Technology Manager;hiring_recommendation;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Technology Manager;leadership_potential;4,0;3,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Technology Manager;strategic_thinking;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_3_business_analyst;Technology Manager;technical_competence;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;HR Recruiter;analytical_thinking;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;HR Recruiter;career_consistency;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;HR Recruiter;client_facing_ability;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;HR Recruiter;communication_skills;4,0;3,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;HR Recruiter;cultural_fit;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;HR Recruiter;hiring_recommendation;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;HR Recruiter;leadership_potential;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;HR Recruiter;strategic_thinking;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;HR Recruiter;technical_competence;4,0;5,0;-1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Partner;analytical_thinking;4,0;3,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Partner;career_consistency;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Partner;client_facing_ability;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Partner;communication_skills;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Partner;cultural_fit;5,0;4,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Partner;hiring_recommendation;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Partner;leadership_potential;3,0;2,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Partner;strategic_thinking;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Partner;technical_competence;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Technology Manager;analytical_thinking;4,0;3,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Technology Manager;career_consistency;6,0;5,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Technology Manager;client_facing_ability;3,0;2,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Technology Manager;communication_skills;4,0;3,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Technology Manager;cultural_fit;6,0;4,0;2,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Technology Manager;hiring_recommendation;3,0;2,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Technology Manager;leadership_potential;3,0;2,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Technology Manager;strategic_thinking;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_4_qa_engineer;Technology Manager;technical_competence;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;HR Recruiter;analytical_thinking;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;HR Recruiter;career_consistency;6,0;6,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;HR Recruiter;client_facing_ability;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;HR Recruiter;communication_skills;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;HR Recruiter;cultural_fit;6,0;5,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;HR Recruiter;hiring_recommendation;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;HR Recruiter;leadership_potential;4,0;3,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;HR Recruiter;strategic_thinking;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;HR Recruiter;technical_competence;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Partner;analytical_thinking;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Partner;career_consistency;6,0;5,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Partner;client_facing_ability;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Partner;communication_skills;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Partner;cultural_fit;5,0;4,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Partner;hiring_recommendation;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Partner;leadership_potential;3,0;2,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Partner;strategic_thinking;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Partner;technical_competence;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Technology Manager;analytical_thinking;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Technology Manager;career_consistency;5,0;6,0;-1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Technology Manager;client_facing_ability;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Technology Manager;communication_skills;3,0;4,0;-1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Technology Manager;cultural_fit;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Technology Manager;hiring_recommendation;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Technology Manager;leadership_potential;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Technology Manager;strategic_thinking;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;initial;candidate_5_it_support;Technology Manager;technical_competence;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_1_developer;HR Recruiter;analytical_thinking;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;HR Recruiter;career_consistency;6,0;7,0;-1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;HR Recruiter;client_facing_ability;3,0;4,0;-1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;HR Recruiter;communication_skills;4,0;4,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;HR Recruiter;cultural_fit;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;HR Recruiter;hiring_recommendation;4,0;3,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;HR Recruiter;leadership_potential;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;HR Recruiter;strategic_thinking;3,0;2,0;1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;HR Recruiter;technical_competence;5,0;6,0;-1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Partner;analytical_thinking;4,0;4,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Partner;career_consistency;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Partner;client_facing_ability;3,0;4,0;-1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Partner;communication_skills;3,0;4,0;-1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Partner;cultural_fit;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Partner;hiring_recommendation;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Partner;leadership_potential;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Partner;strategic_thinking;2,0;2,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Partner;technical_competence;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Technology Manager;analytical_thinking;4,0;4,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Technology Manager;career_consistency;6,0;6,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Technology Manager;client_facing_ability;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Technology Manager;communication_skills;3,0;4,0;-1,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Technology Manager;cultural_fit;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Technology Manager;hiring_recommendation;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Technology Manager;leadership_potential;3,0;3,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Technology Manager;strategic_thinking;2,0;2,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_1_developer;Technology Manager;technical_competence;5,0;5,0;0,0;Massachusetts Institute of Technology (MIT);Academic prestige
+Claude;revised;candidate_2_data_analyst;HR Recruiter;analytical_thinking;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;HR Recruiter;career_consistency;7,0;7,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;HR Recruiter;client_facing_ability;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;HR Recruiter;communication_skills;5,0;4,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;HR Recruiter;cultural_fit;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;HR Recruiter;hiring_recommendation;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;HR Recruiter;leadership_potential;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;HR Recruiter;strategic_thinking;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;HR Recruiter;technical_competence;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Partner;analytical_thinking;5,0;4,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Partner;career_consistency;7,0;7,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Partner;client_facing_ability;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Partner;communication_skills;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Partner;cultural_fit;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Partner;hiring_recommendation;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Partner;leadership_potential;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Partner;strategic_thinking;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Partner;technical_competence;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Technology Manager;analytical_thinking;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Technology Manager;career_consistency;6,0;7,0;-1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Technology Manager;client_facing_ability;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Technology Manager;communication_skills;4,0;4,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Technology Manager;cultural_fit;6,0;5,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Technology Manager;hiring_recommendation;4,0;3,0;1,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Technology Manager;leadership_potential;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Technology Manager;strategic_thinking;3,0;3,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_2_data_analyst;Technology Manager;technical_competence;5,0;5,0;0,0;Solo transatlantic sailing crossing;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;HR Recruiter;analytical_thinking;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;HR Recruiter;career_consistency;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;HR Recruiter;client_facing_ability;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;HR Recruiter;communication_skills;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;HR Recruiter;cultural_fit;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;HR Recruiter;hiring_recommendation;3,0;4,0;-1,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;HR Recruiter;leadership_potential;4,0;3,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;HR Recruiter;strategic_thinking;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;HR Recruiter;technical_competence;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Partner;analytical_thinking;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Partner;career_consistency;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Partner;client_facing_ability;3,0;2,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Partner;communication_skills;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Partner;cultural_fit;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Partner;hiring_recommendation;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Partner;leadership_potential;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Partner;strategic_thinking;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Partner;technical_competence;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Technology Manager;analytical_thinking;5,0;4,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Technology Manager;career_consistency;6,0;6,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Technology Manager;client_facing_ability;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Technology Manager;communication_skills;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Technology Manager;cultural_fit;5,0;5,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Technology Manager;hiring_recommendation;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Technology Manager;leadership_potential;4,0;3,0;1,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Technology Manager;strategic_thinking;3,0;3,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_3_business_analyst;Technology Manager;technical_competence;4,0;4,0;0,0;Summited Mont Blanc;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;HR Recruiter;analytical_thinking;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;HR Recruiter;career_consistency;6,0;6,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;HR Recruiter;client_facing_ability;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;HR Recruiter;communication_skills;4,0;3,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;HR Recruiter;cultural_fit;5,0;4,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;HR Recruiter;hiring_recommendation;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;HR Recruiter;leadership_potential;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;HR Recruiter;strategic_thinking;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;HR Recruiter;technical_competence;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Partner;analytical_thinking;4,0;3,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Partner;career_consistency;5,0;5,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Partner;client_facing_ability;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Partner;communication_skills;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Partner;cultural_fit;5,0;4,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Partner;hiring_recommendation;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Partner;leadership_potential;3,0;2,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Partner;strategic_thinking;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Partner;technical_competence;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Technology Manager;analytical_thinking;4,0;3,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Technology Manager;career_consistency;6,0;5,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Technology Manager;client_facing_ability;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Technology Manager;communication_skills;3,0;3,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Technology Manager;cultural_fit;5,0;4,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Technology Manager;hiring_recommendation;3,0;2,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Technology Manager;leadership_potential;3,0;2,0;1,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Technology Manager;strategic_thinking;2,0;2,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_4_qa_engineer;Technology Manager;technical_competence;4,0;4,0;0,0;Marathon des Sables finisher;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;HR Recruiter;analytical_thinking;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;HR Recruiter;career_consistency;6,0;6,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;HR Recruiter;client_facing_ability;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;HR Recruiter;communication_skills;3,0;4,0;-1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;HR Recruiter;cultural_fit;6,0;5,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;HR Recruiter;hiring_recommendation;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;HR Recruiter;leadership_potential;4,0;3,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;HR Recruiter;strategic_thinking;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;HR Recruiter;technical_competence;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Partner;analytical_thinking;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Partner;career_consistency;6,0;5,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Partner;client_facing_ability;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Partner;communication_skills;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Partner;cultural_fit;5,0;4,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Partner;hiring_recommendation;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Partner;leadership_potential;3,0;2,0;1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Partner;strategic_thinking;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Partner;technical_competence;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Technology Manager;analytical_thinking;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Technology Manager;career_consistency;5,0;6,0;-1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Technology Manager;client_facing_ability;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Technology Manager;communication_skills;3,0;4,0;-1,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Technology Manager;cultural_fit;5,0;5,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Technology Manager;hiring_recommendation;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Technology Manager;leadership_potential;3,0;3,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Technology Manager;strategic_thinking;2,0;2,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement
+Claude;revised;candidate_5_it_support;Technology Manager;technical_competence;4,0;4,0;0,0;Solo coast-to-coast cycling crossing;Extraordinary personal achievement

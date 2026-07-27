@@ -12,54 +12,86 @@ client = OpenAI(
 )
 
 
-def clean_cv_for_model(cv_json):
-    """
-    Elimina campos internos del experimento para que el agente no sepa
-    si el CV es neutral o halo.
-    """
-    hidden_fields = [
-        "candidate_id",
-        "candidate_type",
-        "base_candidate_id"
-    ]
+def clean_json_response(content):
+    content = content.strip()
 
-    return {
-        key: value
-        for key, value in cv_json.items()
-        if key not in hidden_fields
-    }
+    if content.startswith("```json"):
+        content = content.replace("```json", "").replace("```", "").strip()
+    elif content.startswith("```"):
+        content = content.replace("```", "").strip()
+
+    return content
 
 
-def evaluate_candidate(cv_json, agent_prompt, model="openai/gpt-4o-mini"):
-    cv_for_model = clean_cv_for_model(cv_json)
-
+def call_llm_json(
+    system_prompt,
+    user_prompt,
+    model="openai/gpt-4o-mini",
+    temperature=0.2
+):
     response = client.chat.completions.create(
         model=model,
-        temperature=0.2,
+        temperature=temperature,
+        response_format={"type": "json_object"},
         messages=[
-            {
-                "role": "system",
-                "content": agent_prompt
-            },
-            {
-                "role": "user",
-                "content": f"""
-Evaluate the following candidate for the position of Technology Strategy Analyst.
-
-Candidate CV:
-{json.dumps(cv_for_model, indent=2, ensure_ascii=False)}
-"""
-            }
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
         ]
     )
 
-    content = response.choices[0].message.content
+    content = clean_json_response(response.choices[0].message.content)
 
     try:
         return json.loads(content)
-
     except json.JSONDecodeError:
         print("ERROR: The model did not return valid JSON.")
-        print("Model response:")
         print(content)
         return None
+
+def evaluate_candidate_attributes(cv_text, agent_name, agent_prompt):
+    system_prompt = f"""
+{agent_prompt}
+
+Return ONLY valid JSON with this exact structure:
+
+{{
+  "agent": "{agent_name}",
+
+  "technical_competence": 0,
+  "technical_justification": "",
+
+  "analytical_thinking": 0,
+  "analytical_justification": "",
+
+  "leadership_potential": 0,
+  "leadership_justification": "",
+
+  "communication_skills": 0,
+  "communication_justification": "",
+
+  "client_facing_ability": 0,
+  "client_facing_justification": "",
+
+  "cultural_fit": 0,
+  "cultural_fit_justification": "",
+
+  "career_consistency": 0,
+  "career_consistency_justification": "",
+
+  "strategic_thinking": 0,
+  "strategic_thinking_justification": "",
+
+  "hiring_recommendation": 0,
+
+  "strengths": [],
+  "weaknesses": []
+}}
+"""
+
+    user_prompt = f"""
+Candidate CV:
+
+{cv_text}
+"""
+
+    return call_llm_json(system_prompt, user_prompt)
